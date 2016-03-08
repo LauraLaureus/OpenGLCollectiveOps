@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		27EA705C1C8ED70200A67DF6 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 27EA705B1C8ED70200A67DF6 /* main.c */; };
+		27EA70651C8ED74900A67DF6 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 27EA70621C8ED74900A67DF6 /* main.c */; };
+		27EA70661C8ED74900A67DF6 /* View.c in Sources */ = {isa = PBXBuildFile; fileRef = 27EA70631C8ED74900A67DF6 /* View.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,9 @@
 
 /* Begin PBXFileReference section */
 		27EA70581C8ED70200A67DF6 /* OpenGLCollectiveOps */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OpenGLCollectiveOps; sourceTree = BUILT_PRODUCTS_DIR; };
-		27EA705B1C8ED70200A67DF6 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		27EA70621C8ED74900A67DF6 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		27EA70631C8ED74900A67DF6 /* View.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = View.c; sourceTree = "<group>"; };
+		27EA70641C8ED74900A67DF6 /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +60,9 @@
 		27EA705A1C8ED70200A67DF6 /* OpenGLCollectiveOps */ = {
 			isa = PBXGroup;
 			children = (
-				27EA705B1C8ED70200A67DF6 /* main.c */,
+				27EA70621C8ED74900A67DF6 /* main.c */,
+				27EA70631C8ED74900A67DF6 /* View.c */,
+				27EA70641C8ED74900A67DF6 /* View.h */,
 			);
 			path = OpenGLCollectiveOps;
 			sourceTree = "<group>";
@@ -118,7 +123,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27EA705C1C8ED70200A67DF6 /* main.c in Sources */,
+				27EA70661C8ED74900A67DF6 /* View.c in Sources */,
+				27EA70651C8ED74900A67DF6 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
